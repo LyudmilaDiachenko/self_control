@@ -85,6 +85,7 @@ cart.remove('🍇');
 cart.increaseQuantity('🍇')
 cart.increaseQuantity('🍇')
 cart.decreaseQuantity('🍇')
+
 console.table(cart.items)
 console.log(cart.countTotalPrice())
-
+console.log(cart.getItems())

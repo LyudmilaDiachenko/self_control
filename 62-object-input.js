@@ -5,14 +5,13 @@ const name = prompt('Please enter name')
 const age = prompt('Please enter age')
 const salary = prompt('Please enter salary')
 
-const user = { name, age, salary }
-console.log(user)
+// const user = { name, age, salary }
+// console.log(user)
 
 const user1 = {}
     if (name) user1.name = name
     if (age) user1.age = age 
     if (salary) user1.salary = salary 
-
 console.table(user1)
 
 const user2 = {
